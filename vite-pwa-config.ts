@@ -9,16 +9,41 @@ const PWA_CONFIG: Partial<VitePWAOptions> = {
     start_url: "/",
     icons: [
       {
-        src: "/vite.svg",
-        sizes: "144x144",
-        type: "image/svg+xml",
-        purpose: "any maskable",
+        src: "/logo.png",
+        sizes: "256x256",
+        type: "image/png",
+      },
+    ],
+    screenshots: [
+      {
+        src: "screenshots/d1.png",
+        sizes: "1920x1080",
+        form_factor: "wide",
+        type: "image/png",
+      },
+      {
+        src: "screenshots/d2.png",
+        sizes: "1920x1080",
+        form_factor: "wide",
+        type: "image/png",
+      },
+      {
+        src: "screenshots/p1.png",
+        sizes: "828x1792",
+        form_factor: "narrow",
+        type: "image/png",
+      },
+      {
+        src: "screenshots/p2.png",
+        sizes: "828x1792",
+        form_factor: "narrow",
+        type: "image/png",
       },
     ],
     theme_color: "???",
   },
   workbox: {
-    globPatterns: ["**/*.{svg,js,css,html}"],
+    globPatterns: ["**/*.{png,svg,js,css,html}"],
   },
   devOptions: {
     enabled: true,
