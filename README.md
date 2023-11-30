@@ -7,7 +7,7 @@ Comes with...
 - Zustand
 - Tailwind CSS
 - DaisyUI
-- Lucide React
+- React Icons
 - PWA
 - Vite, ESLint, Prettier
 

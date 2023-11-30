@@ -21,7 +21,7 @@ const About = () => {
         <li>Zustand </li>
         <li>Tailwind CSS </li>
         <li>DaisyUI </li>
-        <li>Lucide React </li>
+        <li>React Icons</li>
         <li>PWA</li>
         <li>Vite, ESLint, Prettier </li>
       </ul>

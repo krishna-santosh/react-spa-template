@@ -1,4 +1,4 @@
-import { Minus, Plus } from "lucide-react";
+import { LuMinus, LuPlus } from "react-icons/lu";
 import { useCount } from "../store/count";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
         className="btn btn-secondary"
         onClick={decrementCount}
       >
-        <Minus />
+        <LuMinus className="text-2xl" />
       </button>
       <h1 className="text-4xl">{count}</h1>
       <button
@@ -19,7 +19,7 @@ const Home = () => {
         className="btn btn-secondary"
         onClick={incrementCount}
       >
-        <Plus />
+        <LuPlus className="text-2xl" />
       </button>
     </div>
   );
