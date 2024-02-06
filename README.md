@@ -13,7 +13,7 @@ Comes with...
 
 ## Usage
 
-[![Open in Stackblitz](https://camo.githubusercontent.com/449b29bcd2bc469248faeece273f4e139f92a8d03e042de6214c94e9fa63c02a/68747470733a2f2f692e696d6775722e636f6d2f767232614267412e706e67)](https://stackblitz.com/~/github.com/krishna-santosh/react-spa-template)
+[![Open in Stackblitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/krishna-santosh/react-spa-template)
 
 or install locally
 
