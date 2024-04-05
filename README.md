@@ -32,7 +32,7 @@ pnpx degit krishna-santosh/react-spa-template my-app
 - bun
 
 ```
-bunx degit krishna-santosh/react-spa-template my-app
+bun create krishna-santosh/react-spa-template my-app
 ```
 
 ---
