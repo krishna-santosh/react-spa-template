@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "prettier": "prettier",
-    "fmt": "prettier -w ."
+    "fmt": "prettier -w .",
+    "test": "pnpm exec playwright test",
+    "test:ui": "pnpm exec playwright test --ui"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -19,6 +21,8 @@
     "zustand": "^4.4.6"
   },
   "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.1",
     "@types/react": "^18.2.38",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
