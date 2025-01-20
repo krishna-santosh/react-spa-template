@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import { RouterProvider } from "react-router-dom";
+import { RouterProvider } from "react-router";
 
 import "./global.css";
 import router from "./router";
