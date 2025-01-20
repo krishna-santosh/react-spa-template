@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="flex flex-col gap-6">
       <div className="flex flex-col gap-1">
-        <h1 className=" text-4xl font-thin md:text-6xl">React SPA Template</h1>
+        <h1 className="text-4xl font-thin md:text-6xl">React SPA Template</h1>
         <p className="text-sm md:text-base">
           ~ by{" "}
           <a className="link" href="https://krish.fyi" target="_blank">
