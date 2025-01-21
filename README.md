@@ -2,11 +2,11 @@
 
 Comes with...
 
-- React (TS + SWC)
-- React Router
+- React 19 (TS + SWC)
+- React Router v7
 - Zustand
-- Tailwind CSS
-- DaisyUI
+- Tailwind CSS v4
+- DaisyUI v5
 - React Icons
 - PWA
 - Vite, ESLint, Prettier
