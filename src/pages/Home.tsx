@@ -8,7 +8,7 @@ const Home = () => {
     <div className="grid grid-cols-3 place-items-center gap-5">
       <button
         aria-label="Minus 1"
-        className="btn btn-secondary"
+        className="btn btn-circle btn-secondary"
         onClick={decrementCount}
       >
         <LuMinus className="text-2xl" />
@@ -16,7 +16,7 @@ const Home = () => {
       <h1 className="text-4xl">{count}</h1>
       <button
         aria-label="Plus 1"
-        className="btn btn-secondary"
+        className="btn btn-circle btn-secondary"
         onClick={incrementCount}
       >
         <LuPlus className="text-2xl" />
